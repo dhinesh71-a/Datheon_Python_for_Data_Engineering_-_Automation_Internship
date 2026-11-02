@@ -1,0 +1,13 @@
+order_id,customer_name,email,amount,order_date,quantity,status,currency
+ORD-1001, Alice ,alice@example.com,"₹1,250.50",2026-09-01,2, shipped ,INR
+ORD-1002,BOB,BOB@EXAMPLE.COM,$45.99,09/02/2026,1,Delivered,USD
+ORD-1003,Chitra,,"€89,50",2 Sep 2026,3,processing,EUR
+ORD-1004,David,david@example.com,GBP 120.00,2026-09-04T10:30:00,1,Shipped,GBP
+ORD-1005,Eva,eva@example.com,,2026/09/05,2,Pending,INR
+ORD-1006,Frank,frank@example.com,₹500,not-a-date,1,Delivered,INR
+ORD-1002,BOB,BOB@EXAMPLE.COM,$45.99,09/02/2026,1,Delivered,USD
+ORD-1007,  gita  ,GITA@EXAMPLE.COM,"INR 2,000",2026-09-07,0,shipped,INR
+ORD-1008,Hari,hari@example.com,USD 75.25,2026-09-08,2,DELIVERED,USD
+ORD-1009,,ian@example.com,£30.00,2026-09-09,1,Pending,GBP
+ORD-1010,Jaya,jaya@example.com,₹999.99,2026-09-10,two,Shipped,INR
+ORD-1011,Kiran,kiran@example.com,"€15,00",10-09-2026,1,Returned,EUR

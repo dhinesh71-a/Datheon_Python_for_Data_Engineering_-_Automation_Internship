@@ -1,0 +1,15 @@
+AUTOMATED DATA QUALITY REPORT
+==================================
+Input rows: 12
+Exact duplicates removed: 1
+Invalid rows removed: 5
+Clean rows written: 6
+
+SCHEMA VALIDATION
+required_columns_present: PASS
+order_id_not_null: PASS
+amount_numeric: PASS
+quantity_integer: PASS
+date_format_iso: PASS
+unique_order_ids: PASS
+allowed_currency_codes: PASS

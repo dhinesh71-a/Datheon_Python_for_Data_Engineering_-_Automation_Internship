@@ -1,0 +1,7 @@
+order_id,customer_name,email,amount,order_date,quantity,status,currency
+ORD-1001,Alice,alice@example.com,1250.5,2026-09-01,2,shipped,INR
+ORD-1002,Bob,bob@example.com,45.99,2026-09-02,1,delivered,USD
+ORD-1003,Chitra,,89.5,2026-09-02,3,processing,EUR
+ORD-1004,David,david@example.com,120.0,2026-09-04,1,shipped,GBP
+ORD-1008,Hari,hari@example.com,75.25,2026-09-08,2,delivered,USD
+ORD-1011,Kiran,kiran@example.com,15.0,2026-10-09,1,returned,EUR

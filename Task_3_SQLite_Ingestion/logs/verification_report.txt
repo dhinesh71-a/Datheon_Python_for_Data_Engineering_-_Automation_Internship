@@ -1,0 +1,21 @@
+SQLITE INGESTION VERIFICATION REPORT
+======================================
+Rows submitted for upsert: 6
+Rows in database: 6
+Distinct primary keys: 6
+Database: orders.db
+
+Sample records:
+('ORD-1001', 'Alice', 1250.5, 'INR')
+('ORD-1002', 'Bob', 45.99, 'USD')
+('ORD-1003', 'Chitra', 89.5, 'EUR')
+('ORD-1004', 'David', 120.0, 'GBP')
+('ORD-1008', 'Hari', 75.25, 'USD')
+
+Counts by status:
+delivered: 2
+processing: 1
+returned: 1
+shipped: 2
+
+Idempotency: rerun this script; row count should remain unchanged.

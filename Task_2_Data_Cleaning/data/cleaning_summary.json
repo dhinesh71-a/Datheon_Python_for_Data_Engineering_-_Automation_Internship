@@ -1,0 +1,26 @@
+{
+  "rows_received": 12,
+  "exact_duplicates_removed": 1,
+  "invalid_rows_removed": 5,
+  "rows_written": 6,
+  "schema_checks": {
+    "required_columns_present": true,
+    "order_id_not_null": true,
+    "amount_numeric": true,
+    "quantity_integer": true,
+    "date_format_iso": true,
+    "unique_order_ids": true,
+    "allowed_currency_codes": true
+  },
+  "column_types": {
+    "order_id": "str",
+    "customer_name": "str",
+    "email": "str",
+    "amount": "float64",
+    "order_date": "str",
+    "quantity": "int64",
+    "status": "str",
+    "currency": "str"
+  },
+  "note": "Synthetic sample data; invalid or ambiguous values are rejected, not guessed."
+}
