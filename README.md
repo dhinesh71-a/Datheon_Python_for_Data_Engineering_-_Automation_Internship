@@ -20,17 +20,29 @@ This repository contains my completed projects for the Datheon Python for Data E
 - Handles transactions and duplicate primary keys.
 - Generates verification reports and logs.
 
+### Task 4: Scheduled End-to-End ETL Pipeline with Alerting
+- Runs the web scraper as the extraction stage.
+- Transforms and validates the extracted book data.
+- Loads records into SQLite using upsert operations.
+- Generates pipeline logs and execution reports.
+- Supports scheduled execution and optional email alerts.
+
 ## Technologies Used
 - Python
 - Pandas
 - SQLite
 - BeautifulSoup
 - Requests
+- Schedule
 
 ## Project Structure
 - Task_1_Web_Scraper/
 - Task_2_Data_Cleaning/
 - Task_3_SQLite_Ingestion/
+- Task_4_Scheduled_ETL_Pipeline/
+
+## Verification
+Task 4 successfully processed 1,000 book records. A second execution confirmed that the database still contained 1,000 records.
 
 ---
 Developed as part of the Datheon Python for Data Engineering & Automation Internship.

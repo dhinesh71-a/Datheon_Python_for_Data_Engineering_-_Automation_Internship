@@ -1,0 +1,237 @@
+2026-11-03 10:57:34,302 | INFO | ========== PIPELINE START ==========
+2026-11-03 10:57:34,302 | ERROR | Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\princ\Downloads\datheon_task_4_scheduled_etl\Task_4_Scheduled_ETL_Pipeline\pipeline.py", line 120, in run_pipeline
+    result["extraction_seconds"] = run_scraper()
+                                   ~~~~~~~~~~~^^
+  File "C:\Users\princ\Downloads\datheon_task_4_scheduled_etl\Task_4_Scheduled_ETL_Pipeline\pipeline.py", line 25, in run_scraper
+    raise FileNotFoundError(f"Missing scraper: {script}")
+FileNotFoundError: Missing scraper: C:\Users\princ\Downloads\datheon_task_4_scheduled_etl\Task_1_Web_Scraper\scraper.py
+2026-11-03 10:57:34,350 | INFO | Email alert sent: False
+2026-11-03 10:57:34,352 | INFO | Pipeline status: FAILED
+2026-11-03 10:58:59,170 | INFO | ========== PIPELINE START ==========
+2026-11-03 11:00:20,262 | INFO | Scraper output:\n========== SCRAPING SUMMARY ==========
+Total records extracted : 1000
+CSV output              : data\books.csv
+JSON output             : data\books.json
+======================================
+SUCCESS: The 100+ record target has been achieved.
+2026-11-03 11:00:20,263 | WARNING | Scraper messages:\n2026-11-03 10:59:01,722 | INFO | Scraping page 1: https://books.toscrape.com/
+2026-11-03 10:59:05,479 | INFO | Extracted 20 records (total: 20).
+2026-11-03 10:59:05,984 | INFO | Scraping page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-11-03 10:59:07,114 | INFO | Extracted 20 records (total: 40).
+2026-11-03 10:59:07,618 | INFO | Scraping page 3: https://books.toscrape.com/catalogue/page-3.html
+2026-11-03 10:59:08,436 | INFO | Extracted 20 records (total: 60).
+2026-11-03 10:59:08,942 | INFO | Scraping page 4: https://books.toscrape.com/catalogue/page-4.html
+2026-11-03 10:59:09,974 | INFO | Extracted 20 records (total: 80).
+2026-11-03 10:59:10,478 | INFO | Scraping page 5: https://books.toscrape.com/catalogue/page-5.html
+2026-11-03 10:59:11,427 | INFO | Extracted 20 records (total: 100).
+2026-11-03 10:59:11,934 | INFO | Scraping page 6: https://books.toscrape.com/catalogue/page-6.html
+2026-11-03 10:59:13,043 | INFO | Extracted 20 records (total: 120).
+2026-11-03 10:59:13,547 | INFO | Scraping page 7: https://books.toscrape.com/catalogue/page-7.html
+2026-11-03 10:59:14,586 | INFO | Extracted 20 records (total: 140).
+2026-11-03 10:59:15,090 | INFO | Scraping page 8: https://books.toscrape.com/catalogue/page-8.html
+2026-11-03 10:59:16,236 | INFO | Extracted 20 records (total: 160).
+2026-11-03 10:59:16,740 | INFO | Scraping page 9: https://books.toscrape.com/catalogue/page-9.html
+2026-11-03 10:59:17,830 | INFO | Extracted 20 records (total: 180).
+2026-11-03 10:59:18,334 | INFO | Scraping page 10: https://books.toscrape.com/catalogue/page-10.html
+2026-11-03 10:59:19,288 | INFO | Extracted 20 records (total: 200).
+2026-11-03 10:59:19,792 | INFO | Scraping page 11: https://books.toscrape.com/catalogue/page-11.html
+2026-11-03 10:59:20,830 | INFO | Extracted 20 records (total: 220).
+2026-11-03 10:59:21,334 | INFO | Scraping page 12: https://books.toscrape.com/catalogue/page-12.html
+2026-11-03 10:59:22,156 | INFO | Extracted 20 records (total: 240).
+2026-11-03 10:59:22,660 | INFO | Scraping page 13: https://books.toscrape.com/catalogue/page-13.html
+2026-11-03 10:59:23,601 | INFO | Extracted 20 records (total: 260).
+2026-11-03 10:59:24,105 | INFO | Scraping page 14: https://books.toscrape.com/catalogue/page-14.html
+2026-11-03 10:59:25,129 | INFO | Extracted 20 records (total: 280).
+2026-11-03 10:59:25,633 | INFO | Scraping page 15: https://books.toscrape.com/catalogue/page-15.html
+2026-11-03 10:59:26,578 | INFO | Extracted 20 records (total: 300).
+2026-11-03 10:59:27,081 | INFO | Scraping page 16: https://books.toscrape.com/catalogue/page-16.html
+2026-11-03 10:59:28,117 | INFO | Extracted 20 records (total: 320).
+2026-11-03 10:59:28,621 | INFO | Scraping page 17: https://books.toscrape.com/catalogue/page-17.html
+2026-11-03 10:59:29,530 | INFO | Extracted 20 records (total: 340).
+2026-11-03 10:59:30,034 | INFO | Scraping page 18: https://books.toscrape.com/catalogue/page-18.html
+2026-11-03 10:59:31,080 | INFO | Extracted 20 records (total: 360).
+2026-11-03 10:59:31,583 | INFO | Scraping page 19: https://books.toscrape.com/catalogue/page-19.html
+2026-11-03 10:59:32,611 | INFO | Extracted 20 records (total: 380).
+2026-11-03 10:59:33,116 | INFO | Scraping page 20: https://books.toscrape.com/catalogue/page-20.html
+2026-11-03 10:59:34,167 | INFO | Extracted 20 records (total: 400).
+2026-11-03 10:59:34,671 | INFO | Scraping page 21: https://books.toscrape.com/catalogue/page-21.html
+2026-11-03 10:59:35,685 | INFO | Extracted 20 records (total: 420).
+2026-11-03 10:59:36,190 | INFO | Scraping page 22: https://books.toscrape.com/catalogue/page-22.html
+2026-11-03 10:59:37,351 | INFO | Extracted 20 records (total: 440).
+2026-11-03 10:59:37,858 | INFO | Scraping page 23: https://books.toscrape.com/catalogue/page-23.html
+2026-11-03 10:59:38,914 | INFO | Extracted 20 records (total: 460).
+2026-11-03 10:59:39,423 | INFO | Scraping page 24: https://books.toscrape.com/catalogue/page-24.html
+2026-11-03 10:59:40,527 | INFO | Extracted 20 records (total: 480).
+2026-11-03 10:59:41,035 | INFO | Scraping page 25: https://books.toscrape.com/catalogue/page-25.html
+2026-11-03 10:59:41,966 | INFO | Extracted 20 records (total: 500).
+2026-11-03 10:59:42,473 | INFO | Scraping page 26: https://books.toscrape.com/catalogue/page-26.html
+2026-11-03 10:59:43,459 | INFO | Extracted 20 records (total: 520).
+2026-11-03 10:59:43,969 | INFO | Scraping page 27: https://books.toscrape.com/catalogue/page-27.html
+2026-11-03 10:59:44,812 | INFO | Extracted 20 records (total: 540).
+2026-11-03 10:59:45,316 | INFO | Scraping page 28: https://books.toscrape.com/catalogue/page-28.html
+2026-11-03 10:59:46,437 | INFO | Extracted 20 records (total: 560).
+2026-11-03 10:59:46,940 | INFO | Scraping page 29: https://books.toscrape.com/catalogue/page-29.html
+2026-11-03 10:59:48,081 | INFO | Extracted 20 records (total: 580).
+2026-11-03 10:59:48,584 | INFO | Scraping page 30: https://books.toscrape.com/catalogue/page-30.html
+2026-11-03 10:59:49,503 | INFO | Extracted 20 records (total: 600).
+2026-11-03 10:59:50,007 | INFO | Scraping page 31: https://books.toscrape.com/catalogue/page-31.html
+2026-11-03 10:59:51,139 | INFO | Extracted 20 records (total: 620).
+2026-11-03 10:59:51,642 | INFO | Scraping page 32: https://books.toscrape.com/catalogue/page-32.html
+2026-11-03 10:59:52,585 | INFO | Extracted 20 records (total: 640).
+2026-11-03 10:59:53,089 | INFO | Scraping page 33: https://books.toscrape.com/catalogue/page-33.html
+2026-11-03 10:59:54,113 | INFO | Extracted 20 records (total: 660).
+2026-11-03 10:59:54,617 | INFO | Scraping page 34: https://books.toscrape.com/catalogue/page-34.html
+2026-11-03 10:59:55,749 | INFO | Extracted 20 records (total: 680).
+2026-11-03 10:59:56,252 | INFO | Scraping page 35: https://books.toscrape.com/catalogue/page-35.html
+2026-11-03 10:59:57,299 | INFO | Extracted 20 records (total: 700).
+2026-11-03 10:59:57,803 | INFO | Scraping page 36: https://books.toscrape.com/catalogue/page-36.html
+2026-11-03 10:59:58,732 | INFO | Extracted 20 records (total: 720).
+2026-11-03 10:59:59,236 | INFO | Scraping page 37: https://books.toscrape.com/catalogue/page-37.html
+2026-11-03 11:00:00,264 | INFO | Extracted 20 records (total: 740).
+2026-11-03 11:00:00,768 | INFO | Scraping page 38: https://books.toscrape.com/catalogue/page-38.html
+2026-11-03 11:00:01,787 | INFO | Extracted 20 records (total: 760).
+2026-11-03 11:00:02,292 | INFO | Scraping page 39: https://books.toscrape.com/catalogue/page-39.html
+2026-11-03 11:00:03,243 | INFO | Extracted 20 records (total: 780).
+2026-11-03 11:00:03,747 | INFO | Scraping page 40: https://books.toscrape.com/catalogue/page-40.html
+2026-11-03 11:00:04,900 | INFO | Extracted 20 records (total: 800).
+2026-11-03 11:00:05,405 | INFO | Scraping page 41: https://books.toscrape.com/catalogue/page-41.html
+2026-11-03 11:00:06,405 | INFO | Extracted 20 records (total: 820).
+2026-11-03 11:00:06,910 | INFO | Scraping page 42: https://books.toscrape.com/catalogue/page-42.html
+2026-11-03 11:00:07,860 | INFO | Extracted 20 records (total: 840).
+2026-11-03 11:00:08,364 | INFO | Scraping page 43: https://books.toscrape.com/catalogue/page-43.html
+2026-11-03 11:00:09,278 | INFO | Extracted 20 records (total: 860).
+2026-11-03 11:00:09,782 | INFO | Scraping page 44: https://books.toscrape.com/catalogue/page-44.html
+2026-11-03 11:00:10,798 | INFO | Extracted 20 records (total: 880).
+2026-11-03 11:00:11,304 | INFO | Scraping page 45: https://books.toscrape.com/catalogue/page-45.html
+2026-11-03 11:00:12,251 | INFO | Extracted 20 records (total: 900).
+2026-11-03 11:00:12,754 | INFO | Scraping page 46: https://books.toscrape.com/catalogue/page-46.html
+2026-11-03 11:00:13,769 | INFO | Extracted 20 records (total: 920).
+2026-11-03 11:00:14,273 | INFO | Scraping page 47: https://books.toscrape.com/catalogue/page-47.html
+2026-11-03 11:00:15,210 | INFO | Extracted 20 records (total: 940).
+2026-11-03 11:00:15,714 | INFO | Scraping page 48: https://books.toscrape.com/catalogue/page-48.html
+2026-11-03 11:00:16,858 | INFO | Extracted 20 records (total: 960).
+2026-11-03 11:00:17,364 | INFO | Scraping page 49: https://books.toscrape.com/catalogue/page-49.html
+2026-11-03 11:00:18,620 | INFO | Extracted 20 records (total: 980).
+2026-11-03 11:00:19,127 | INFO | Scraping page 50: https://books.toscrape.com/catalogue/page-50.html
+2026-11-03 11:00:20,051 | INFO | Extracted 20 records (total: 1000).
+2026-11-03 11:00:20,108 | INFO | CSV saved: data\books.csv
+2026-11-03 11:00:20,137 | INFO | JSON saved: data\books.json
+2026-11-03 11:00:20,297 | INFO | Transformation retained 1000 of 1000 rows
+2026-11-03 11:00:20,357 | INFO | Upserted 1000 books; database contains 1000
+2026-11-03 11:00:20,420 | INFO | Email alert sent: False
+2026-11-03 11:00:20,420 | INFO | Pipeline status: SUCCESS
+2026-11-03 11:01:22,472 | INFO | ========== PIPELINE START ==========
+2026-11-03 11:02:39,929 | INFO | Scraper output:\n========== SCRAPING SUMMARY ==========
+Total records extracted : 1000
+CSV output              : data\books.csv
+JSON output             : data\books.json
+======================================
+SUCCESS: The 100+ record target has been achieved.
+2026-11-03 11:02:39,929 | WARNING | Scraper messages:\n2026-11-03 11:01:22,727 | INFO | Scraping page 1: https://books.toscrape.com/
+2026-11-03 11:01:25,559 | INFO | Extracted 20 records (total: 20).
+2026-11-03 11:01:26,063 | INFO | Scraping page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-11-03 11:01:27,297 | INFO | Extracted 20 records (total: 40).
+2026-11-03 11:01:27,801 | INFO | Scraping page 3: https://books.toscrape.com/catalogue/page-3.html
+2026-11-03 11:01:29,341 | INFO | Extracted 20 records (total: 60).
+2026-11-03 11:01:29,845 | INFO | Scraping page 4: https://books.toscrape.com/catalogue/page-4.html
+2026-11-03 11:01:31,085 | INFO | Extracted 20 records (total: 80).
+2026-11-03 11:01:31,590 | INFO | Scraping page 5: https://books.toscrape.com/catalogue/page-5.html
+2026-11-03 11:01:32,821 | INFO | Extracted 20 records (total: 100).
+2026-11-03 11:01:33,325 | INFO | Scraping page 6: https://books.toscrape.com/catalogue/page-6.html
+2026-11-03 11:01:34,666 | INFO | Extracted 20 records (total: 120).
+2026-11-03 11:01:35,171 | INFO | Scraping page 7: https://books.toscrape.com/catalogue/page-7.html
+2026-11-03 11:01:36,402 | INFO | Extracted 20 records (total: 140).
+2026-11-03 11:01:36,905 | INFO | Scraping page 8: https://books.toscrape.com/catalogue/page-8.html
+2026-11-03 11:01:38,127 | INFO | Extracted 20 records (total: 160).
+2026-11-03 11:01:38,632 | INFO | Scraping page 9: https://books.toscrape.com/catalogue/page-9.html
+2026-11-03 11:01:39,988 | INFO | Extracted 20 records (total: 180).
+2026-11-03 11:01:40,492 | INFO | Scraping page 10: https://books.toscrape.com/catalogue/page-10.html
+2026-11-03 11:01:41,317 | INFO | Extracted 20 records (total: 200).
+2026-11-03 11:01:41,821 | INFO | Scraping page 11: https://books.toscrape.com/catalogue/page-11.html
+2026-11-03 11:01:42,652 | INFO | Extracted 20 records (total: 220).
+2026-11-03 11:01:43,156 | INFO | Scraping page 12: https://books.toscrape.com/catalogue/page-12.html
+2026-11-03 11:01:44,193 | INFO | Extracted 20 records (total: 240).
+2026-11-03 11:01:44,697 | INFO | Scraping page 13: https://books.toscrape.com/catalogue/page-13.html
+2026-11-03 11:01:45,635 | INFO | Extracted 20 records (total: 260).
+2026-11-03 11:01:46,138 | INFO | Scraping page 14: https://books.toscrape.com/catalogue/page-14.html
+2026-11-03 11:01:47,096 | INFO | Extracted 20 records (total: 280).
+2026-11-03 11:01:47,599 | INFO | Scraping page 15: https://books.toscrape.com/catalogue/page-15.html
+2026-11-03 11:01:48,526 | INFO | Extracted 20 records (total: 300).
+2026-11-03 11:01:49,030 | INFO | Scraping page 16: https://books.toscrape.com/catalogue/page-16.html
+2026-11-03 11:01:49,943 | INFO | Extracted 20 records (total: 320).
+2026-11-03 11:01:50,447 | INFO | Scraping page 17: https://books.toscrape.com/catalogue/page-17.html
+2026-11-03 11:01:51,483 | INFO | Extracted 20 records (total: 340).
+2026-11-03 11:01:51,987 | INFO | Scraping page 18: https://books.toscrape.com/catalogue/page-18.html
+2026-11-03 11:01:52,889 | INFO | Extracted 20 records (total: 360).
+2026-11-03 11:01:53,424 | INFO | Scraping page 19: https://books.toscrape.com/catalogue/page-19.html
+2026-11-03 11:01:54,298 | INFO | Extracted 20 records (total: 380).
+2026-11-03 11:01:54,802 | INFO | Scraping page 20: https://books.toscrape.com/catalogue/page-20.html
+2026-11-03 11:01:55,767 | INFO | Extracted 20 records (total: 400).
+2026-11-03 11:01:56,271 | INFO | Scraping page 21: https://books.toscrape.com/catalogue/page-21.html
+2026-11-03 11:01:57,195 | INFO | Extracted 20 records (total: 420).
+2026-11-03 11:01:57,699 | INFO | Scraping page 22: https://books.toscrape.com/catalogue/page-22.html
+2026-11-03 11:01:58,730 | INFO | Extracted 20 records (total: 440).
+2026-11-03 11:01:59,235 | INFO | Scraping page 23: https://books.toscrape.com/catalogue/page-23.html
+2026-11-03 11:02:00,188 | INFO | Extracted 20 records (total: 460).
+2026-11-03 11:02:00,691 | INFO | Scraping page 24: https://books.toscrape.com/catalogue/page-24.html
+2026-11-03 11:02:01,705 | INFO | Extracted 20 records (total: 480).
+2026-11-03 11:02:02,209 | INFO | Scraping page 25: https://books.toscrape.com/catalogue/page-25.html
+2026-11-03 11:02:03,099 | INFO | Extracted 20 records (total: 500).
+2026-11-03 11:02:03,603 | INFO | Scraping page 26: https://books.toscrape.com/catalogue/page-26.html
+2026-11-03 11:02:04,566 | INFO | Extracted 20 records (total: 520).
+2026-11-03 11:02:05,070 | INFO | Scraping page 27: https://books.toscrape.com/catalogue/page-27.html
+2026-11-03 11:02:06,007 | INFO | Extracted 20 records (total: 540).
+2026-11-03 11:02:06,510 | INFO | Scraping page 28: https://books.toscrape.com/catalogue/page-28.html
+2026-11-03 11:02:07,346 | INFO | Extracted 20 records (total: 560).
+2026-11-03 11:02:07,850 | INFO | Scraping page 29: https://books.toscrape.com/catalogue/page-29.html
+2026-11-03 11:02:08,667 | INFO | Extracted 20 records (total: 580).
+2026-11-03 11:02:09,171 | INFO | Scraping page 30: https://books.toscrape.com/catalogue/page-30.html
+2026-11-03 11:02:10,172 | INFO | Extracted 20 records (total: 600).
+2026-11-03 11:02:10,676 | INFO | Scraping page 31: https://books.toscrape.com/catalogue/page-31.html
+2026-11-03 11:02:11,537 | INFO | Extracted 20 records (total: 620).
+2026-11-03 11:02:12,041 | INFO | Scraping page 32: https://books.toscrape.com/catalogue/page-32.html
+2026-11-03 11:02:12,968 | INFO | Extracted 20 records (total: 640).
+2026-11-03 11:02:13,478 | INFO | Scraping page 33: https://books.toscrape.com/catalogue/page-33.html
+2026-11-03 11:02:14,508 | INFO | Extracted 20 records (total: 660).
+2026-11-03 11:02:15,011 | INFO | Scraping page 34: https://books.toscrape.com/catalogue/page-34.html
+2026-11-03 11:02:16,055 | INFO | Extracted 20 records (total: 680).
+2026-11-03 11:02:16,565 | INFO | Scraping page 35: https://books.toscrape.com/catalogue/page-35.html
+2026-11-03 11:02:17,685 | INFO | Extracted 20 records (total: 700).
+2026-11-03 11:02:18,189 | INFO | Scraping page 36: https://books.toscrape.com/catalogue/page-36.html
+2026-11-03 11:02:19,114 | INFO | Extracted 20 records (total: 720).
+2026-11-03 11:02:19,618 | INFO | Scraping page 37: https://books.toscrape.com/catalogue/page-37.html
+2026-11-03 11:02:20,672 | INFO | Extracted 20 records (total: 740).
+2026-11-03 11:02:21,176 | INFO | Scraping page 38: https://books.toscrape.com/catalogue/page-38.html
+2026-11-03 11:02:22,193 | INFO | Extracted 20 records (total: 760).
+2026-11-03 11:02:22,697 | INFO | Scraping page 39: https://books.toscrape.com/catalogue/page-39.html
+2026-11-03 11:02:23,520 | INFO | Extracted 20 records (total: 780).
+2026-11-03 11:02:24,024 | INFO | Scraping page 40: https://books.toscrape.com/catalogue/page-40.html
+2026-11-03 11:02:25,151 | INFO | Extracted 20 records (total: 800).
+2026-11-03 11:02:25,659 | INFO | Scraping page 41: https://books.toscrape.com/catalogue/page-41.html
+2026-11-03 11:02:26,590 | INFO | Extracted 20 records (total: 820).
+2026-11-03 11:02:27,094 | INFO | Scraping page 42: https://books.toscrape.com/catalogue/page-42.html
+2026-11-03 11:02:28,020 | INFO | Extracted 20 records (total: 840).
+2026-11-03 11:02:28,525 | INFO | Scraping page 43: https://books.toscrape.com/catalogue/page-43.html
+2026-11-03 11:02:29,561 | INFO | Extracted 20 records (total: 860).
+2026-11-03 11:02:30,065 | INFO | Scraping page 44: https://books.toscrape.com/catalogue/page-44.html
+2026-11-03 11:02:31,104 | INFO | Extracted 20 records (total: 880).
+2026-11-03 11:02:31,608 | INFO | Scraping page 45: https://books.toscrape.com/catalogue/page-45.html
+2026-11-03 11:02:32,542 | INFO | Extracted 20 records (total: 900).
+2026-11-03 11:02:33,047 | INFO | Scraping page 46: https://books.toscrape.com/catalogue/page-46.html
+2026-11-03 11:02:33,857 | INFO | Extracted 20 records (total: 920).
+2026-11-03 11:02:34,360 | INFO | Scraping page 47: https://books.toscrape.com/catalogue/page-47.html
+2026-11-03 11:02:35,413 | INFO | Extracted 20 records (total: 940).
+2026-11-03 11:02:35,916 | INFO | Scraping page 48: https://books.toscrape.com/catalogue/page-48.html
+2026-11-03 11:02:36,826 | INFO | Extracted 20 records (total: 960).
+2026-11-03 11:02:37,330 | INFO | Scraping page 49: https://books.toscrape.com/catalogue/page-49.html
+2026-11-03 11:02:38,276 | INFO | Extracted 20 records (total: 980).
+2026-11-03 11:02:38,780 | INFO | Scraping page 50: https://books.toscrape.com/catalogue/page-50.html
+2026-11-03 11:02:39,817 | INFO | Extracted 20 records (total: 1000).
+2026-11-03 11:02:39,832 | INFO | CSV saved: data\books.csv
+2026-11-03 11:02:39,848 | INFO | JSON saved: data\books.json
+2026-11-03 11:02:39,949 | INFO | Transformation retained 1000 of 1000 rows
+2026-11-03 11:02:40,003 | INFO | Upserted 1000 books; database contains 1000
+2026-11-03 11:02:40,051 | INFO | Email alert sent: False
+2026-11-03 11:02:40,052 | INFO | Pipeline status: SUCCESS

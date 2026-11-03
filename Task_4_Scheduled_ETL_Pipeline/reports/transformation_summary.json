@@ -1,0 +1,6 @@
+{
+  "input_rows": 1000,
+  "clean_rows": 1000,
+  "removed_rows": 0,
+  "output": "data/cleaned_books.csv"
+}
